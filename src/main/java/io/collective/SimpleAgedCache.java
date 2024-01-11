@@ -72,7 +72,7 @@ public class SimpleAgedCache {
             }
         }
 
-        // If the size didn't change, the entry was not found, return null
+        // If the size did not change, the entry was not found, return null
         if (originalSize == size) {
             return null;
         }
